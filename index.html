@@ -27,7 +27,7 @@
 <body class="font-inter">
     <header>
         <!-- navigation bar starts-->
-        <div class="navbar bg-blues text-white px-5 lg:px-28 py-4">
+        <div class="navbar bg-blues text-white px-4 md:px-6 lg:px-20 py-4">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -100,15 +100,35 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn text-base font-bold px-4 mr-4 text-blues border-2 border-white 
+                <a class="btn text-base font-bold px-4 text-blues border-2 border-white 
               hover:bg-transparent hover:text-white hover:border-white">Sign In
                     <i class="fa-solid fa-right-to-bracket"></i></a>
-                <a class="btn text-base font-bold px-4 text-blues border-2 border-white 
-              hover:bg-transparent hover:text-white hover:border-white hidden lg:visible">Sign Up
+                <a class="btn text-base font-bold px-4 mx-4 text-blues border-2 border-white 
+              hover:bg-transparent hover:text-white hover:border-white hidden md:flex lg:flex">Sign Up
                     <i class="fa-solid fa-user-plus"></i></a>
             </div>
         </div>
         <!-- navigation bar ends-->
+
+        <!-- banner section starts -->
+        <div class="banner-section px-4 md:px-6 lg:px-20 pt-5 lg:pt-12" style="background: url(./images/bg-shapes.svg);">
+            <div class="hero">
+                <div class="hero-content flex-col md:flex-row-reverse lg:flex-row-reverse">
+                    <img src="images/banner.jpg" class="md:w-1/2 lg:w-1/2 rounded-lg shadow-2xl mb-4 lg:mb-0" />
+                    <div>
+                        <h1 class="text-4xl  lg:text-5xl font-extrabold font-nunito lg:leading-[52px]">Elevate Your Skills, 
+                            Unlock Your Potential</h1>
+                        <p class="py-6 md:py-4 lg:py-6 w-11/12">Welcome to Our Online Learning Platform! 
+                            Explore and discover new skills to learn and employ in real world. LearningWay is your
+                            gateway to knowledge</p>
+                        <button class="btn text-base font-bold px-4 mr-4 bg-blues text-white border-2 border-blues 
+                        hover:bg-transparent hover:text-blues hover:border-blues">Explore Now 
+                        <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner section ends -->
     </header>
 
     <main></main>
@@ -121,7 +141,7 @@
                 extend: {
                     colors: {
                         'blues': '#0B60B0',
-                        'light-blue': '#0B60B0',
+                        'light-blue': '#40A2D8',
                         'pale-white': '#F0EDCF',
                     }
                 }
