@@ -13,3 +13,8 @@
 .para-height{
     line-height: 26px;
 }
+
+.category-content button{
+    height: 5rem;
+    width: 17rem;
+}
